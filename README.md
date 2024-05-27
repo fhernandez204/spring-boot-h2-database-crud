@@ -16,7 +16,7 @@ REQUISITO:
 
 Estructura del Proyecto:
 
-![image](https://github.com/fhernandez204/apiRest/blob/master/project%20structure.png)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/structure.jpg)
 
 ENDPOINT
 
