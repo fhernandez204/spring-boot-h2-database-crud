@@ -1,10 +1,10 @@
-package com.bezkoder.spring.jpa.h2.model;
+package com.api.model;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tutorials")
-public class Tutorial {
+@Table(name = "space_craft")
+public class SpaceCraft {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
@@ -19,11 +19,11 @@ public class Tutorial {
   @Column(name = "published")
   private boolean published;
 
-  public Tutorial() {
+  public SpaceCraft() {
 
   }
 
-  public Tutorial(String title, String description, boolean published) {
+  public SpaceCraft(String title, String description, boolean published) {
     this.title = title;
     this.description = description;
     this.published = published;
@@ -59,7 +59,7 @@ public class Tutorial {
 
   @Override
   public String toString() {
-    return "Tutorial [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
+    return "SpaceCraft [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
   }
 
 }

@@ -1,10 +1,10 @@
-package com.bezkoder.spring.jpa.h2;
+package com.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootJpaH2ApplicationTests {
+class SpaceCraftApplicationTests {
 
 	@Test
 	void contextLoads() {
