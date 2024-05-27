@@ -38,26 +38,26 @@ http://localhost:8080/api/naves/152
  ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byID.jpg)
 
 
-OBTENER NOMBRES DE NAVE POR NOMBRE
+OBTENER NAVES POR NOMBRE
 http://localhost:8080/api/naves?title=NAVE
 
-![image](https://github.com/fhernandez204/apiRest/blob/master/byName.jpg)
+![image](https://github.com/fhernandez204/apiRest/blob/master/images/byName.jpg)
 
 
  MODIFICAR NAVE
 
  http://localhost:8080/api/naves/152
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/put.jpg)
+ ![image](https://github.com/fhernandez204/apiRest/blob/master/images/put.jpg)
 
 DESPUES DE MODIFICAR
-  ![image](https://github.com/fhernandez204/apiRest/blob/master/byIDForUpdate.jpg)
+  ![image](https://github.com/fhernandez204/apiRest/blob/master/images/byIDForUpdate.jpg)
 
 
 ELIMINAR NAVE
 http://localhost:8080/api/naves/152
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/byIDForDelete.jpg)
+ ![image](https://github.com/fhernandez204/apiRest/blob/master/images/byIDForDelete.jpg)
 
  TestUnit
  ![image](https://github.com/fhernandez204/apiRest/blob/master/testUnit.png)
