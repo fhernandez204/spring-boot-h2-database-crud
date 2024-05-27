@@ -14,6 +14,7 @@ REQUISITO:
 
 ● Java 17.
 
+
 Estructura del Proyecto:
 
 ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/structure.jpg)
@@ -41,23 +42,23 @@ http://localhost:8080/api/naves/152
 OBTENER NAVES POR NOMBRE
 http://localhost:8080/api/naves?title=NAVE
 
-![image](https://github.com/fhernandez204/apiRest/blob/master/images/byName.jpg)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byName.jpg)
 
 
  MODIFICAR NAVE
 
  http://localhost:8080/api/naves/152
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/images/put.jpg)
+ ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/put.jpg)
 
 DESPUES DE MODIFICAR
-  ![image](https://github.com/fhernandez204/apiRest/blob/master/images/byIDForUpdate.jpg)
+  ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byIDForUpdate.jpg)
 
 
 ELIMINAR NAVE
 http://localhost:8080/api/naves/152
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/images/byIDForDelete.jpg)
+ ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byIDForDelete.jpg)
 
  TestUnit
  ![image](https://github.com/fhernandez204/apiRest/blob/master/testUnit.png)
