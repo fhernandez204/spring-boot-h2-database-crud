@@ -21,25 +21,21 @@ Estructura del Proyecto:
 ENDPOINT
 
 CREAR NAVE
- [http://localhost:8080/api/users](http://localhost:8080/api/naves)
+ http://localhost:8080/api/naves
 
- 
 ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/create.jpg)
 
-SI EL CORREO YA EXISTE
+TODAS LAS NAVES
+http://localhost:8080/api/naves
 
-![image](https://github.com/fhernandez204/apiRest/blob/master/createUser2.png)
-
-SI EL CORREO NO TIENE EL FORMATO CORRECTO
-
-![image](https://github.com/fhernandez204/apiRest/blob/main/createUser3.png)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/all.jpg)
 
 
 GET USUARIO POR ID
 
   http://localhost:8080/api/users/19152
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/getUsers.png)
+ ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byID.jpg)
 
 
  MODIFICAR USUARIO
