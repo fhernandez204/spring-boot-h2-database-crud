@@ -33,8 +33,7 @@ http://localhost:8080/api/naves
 
 
 OBTENER NAVE POR ID
-
-(http://localhost:8080/api/naves/152
+http://localhost:8080/api/naves/152
 
  ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byID.jpg)
 
