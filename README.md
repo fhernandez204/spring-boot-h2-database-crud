@@ -14,39 +14,51 @@ REQUISITO:
 
 ● Java 17.
 
+
 Estructura del Proyecto:
 
-![image](https://github.com/fhernandez204/apiRest/blob/master/project%20structure.png)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/structure.jpg)
 
-ENDPOINT
+ENDPOINT:
 
-CREAR USUARIO
- http://localhost:8080/api/users
+CREAR NAVE
+ http://localhost:8080/api/naves
 
- 
-![image](https://github.com/fhernandez204/apiRest/blob/master/createUser.png)
-
-SI EL CORREO YA EXISTE
-
-![image](https://github.com/fhernandez204/apiRest/blob/master/createUser2.png)
-
-SI EL CORREO NO TIENE EL FORMATO CORRECTO
-
-![image](https://github.com/fhernandez204/apiRest/blob/main/createUser3.png)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/create.jpg)
 
 
-GET USUARIO POR ID
+TODAS LAS NAVES
+http://localhost:8080/api/naves
 
-  http://localhost:8080/api/users/19152
-
- ![image](https://github.com/fhernandez204/apiRest/blob/master/getUsers.png)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/all.jpg)
 
 
- MODIFICAR USUARIO
+OBTENER NAVE POR ID
+http://localhost:8080/api/naves/152
 
- http://localhost:8080/api/users/6352
+ ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byID.jpg)
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/putUser.png)
+
+OBTENER NAVES POR NOMBRE
+http://localhost:8080/api/naves?title=NAVE
+
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byName.jpg)
+
+
+ MODIFICAR NAVE
+
+ http://localhost:8080/api/naves/152
+
+ ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/put.jpg)
+
+DESPUES DE MODIFICAR
+  ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byIDForUpdate.jpg)
+
+
+ELIMINAR NAVE
+http://localhost:8080/api/naves/152
+
+ ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byIDForDelete.jpg)
 
  TestUnit
  ![image](https://github.com/fhernandez204/apiRest/blob/master/testUnit.png)
