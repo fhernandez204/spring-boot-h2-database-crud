@@ -61,7 +61,7 @@ http://localhost:8080/api/naves/152
  ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byIDForDelete.jpg)
 
  TestUnit
- ![image](https://github.com/fhernandez204/apiRest/blob/master/testUnit.png)
+ ![image](https://github.com/fhernandez204/apiRest/blob/master/images/junit.jpg)
 
  Swagger
 
