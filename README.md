@@ -20,11 +20,11 @@ Estructura del Proyecto:
 
 ENDPOINT
 
-CREAR USUARIO
- http://localhost:8080/api/users
+CREAR NAVE
+ [http://localhost:8080/api/users](http://localhost:8080/api/naves)
 
  
-![image](https://github.com/fhernandez204/apiRest/blob/master/createUser.png)
+![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/create.jpg)
 
 SI EL CORREO YA EXISTE
 
