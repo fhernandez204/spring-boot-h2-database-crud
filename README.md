@@ -18,12 +18,13 @@ Estructura del Proyecto:
 
 ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/structure.jpg)
 
-ENDPOINT
+ENDPOINT:
 
 CREAR NAVE
  http://localhost:8080/api/naves
 
 ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/create.jpg)
+
 
 TODAS LAS NAVES
 http://localhost:8080/api/naves
@@ -31,18 +32,33 @@ http://localhost:8080/api/naves
 ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/all.jpg)
 
 
-GET USUARIO POR ID
+OBTENER NAVE POR ID
 
-  http://localhost:8080/api/users/19152
+(http://localhost:8080/api/naves/152
 
  ![image](https://github.com/fhernandez204/spring-boot-h2-database-crud/blob/master/images/byID.jpg)
 
 
- MODIFICAR USUARIO
+OBTENER NOMBRES DE NAVE POR NOMBRE
+http://localhost:8080/api/naves?title=NAVE
 
- http://localhost:8080/api/users/6352
+![image](https://github.com/fhernandez204/apiRest/blob/master/byName.jpg)
 
- ![image](https://github.com/fhernandez204/apiRest/blob/master/putUser.png)
+
+ MODIFICAR NAVE
+
+ http://localhost:8080/api/naves/152
+
+ ![image](https://github.com/fhernandez204/apiRest/blob/master/put.jpg)
+
+DESPUES DE MODIFICAR
+  ![image](https://github.com/fhernandez204/apiRest/blob/master/byIDForUpdate.jpg)
+
+
+ELIMINAR NAVE
+http://localhost:8080/api/naves/152
+
+ ![image](https://github.com/fhernandez204/apiRest/blob/master/byIDForDelete.jpg)
 
  TestUnit
  ![image](https://github.com/fhernandez204/apiRest/blob/master/testUnit.png)
