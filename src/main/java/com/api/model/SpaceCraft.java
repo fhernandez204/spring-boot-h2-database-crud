@@ -16,17 +16,13 @@ public class SpaceCraft {
   @Column(name = "description")
   private String description;
 
-  @Column(name = "published")
-  private boolean published;
-
   public SpaceCraft() {
 
   }
 
-  public SpaceCraft(String title, String description, boolean published) {
+  public SpaceCraft(String title, String description) {
     this.title = title;
     this.description = description;
-    this.published = published;
   }
 
   public long getId() {
@@ -49,17 +45,9 @@ public class SpaceCraft {
     this.description = description;
   }
 
-  public boolean isPublished() {
-    return published;
-  }
-
-  public void setPublished(boolean isPublished) {
-    this.published = isPublished;
-  }
-
-  @Override
+    @Override
   public String toString() {
-    return "SpaceCraft [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
+    return "SpaceCraft [id=" + id + ", title=" + title + ", desc=" + description  + "]";
   }
 
 }

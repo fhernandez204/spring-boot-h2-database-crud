@@ -13,7 +13,6 @@ public class SimulationData {
         SpaceCraft spaceCraft = new SpaceCraft();
         spaceCraft.setTitle("Speeders");
         spaceCraft.setDescription("Speeders Nave");
-        spaceCraft.setPublished(true);
         return spaceCraft;
     }
 

@@ -89,7 +89,7 @@ public class SpaceCraftController {
   @PostMapping("/naves")
   public ResponseEntity<SpaceCraft> createSpaceCraft(@RequestBody SpaceCraft naveEspacial) {
     try {
-      SpaceCraft _naveEspacial = spaceCraftRepository.save(new SpaceCraft(naveEspacial.getTitle(), naveEspacial.getDescription(), naveEspacial.isPublished()));
+      SpaceCraft _naveEspacial = spaceCraftRepository.save(new SpaceCraft(naveEspacial.getTitle(), naveEspacial.getDescription()));
       return new ResponseEntity<>(_naveEspacial, HttpStatus.CREATED);
     } catch (Exception e) {
       throw new RestGenericException(ErrorCode.INTERNAL_ERROR);
@@ -104,7 +104,6 @@ public class SpaceCraftController {
       SpaceCraft _naveEspacial = naveData.get();
       _naveEspacial.setTitle(naveEspacial.getTitle());
       _naveEspacial.setDescription(naveEspacial.getDescription());
-      _naveEspacial.setPublished(naveEspacial.isPublished());
       return new ResponseEntity<>(spaceCraftRepository.save(_naveEspacial), HttpStatus.OK);
     } else {
       return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -130,20 +129,6 @@ public class SpaceCraftController {
       return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-  }
-
-  @GetMapping("/naves/published")
-  public ResponseEntity<List<SpaceCraft>> findByPublished() {
-    try {
-      List<SpaceCraft> naveEspacials = spaceCraftRepository.findByPublished(true);
-
-      if (naveEspacials.isEmpty()) {
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-      }
-      return new ResponseEntity<>(naveEspacials, HttpStatus.OK);
-    } catch (Exception e) {
-      return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-    }
   }
 
 }

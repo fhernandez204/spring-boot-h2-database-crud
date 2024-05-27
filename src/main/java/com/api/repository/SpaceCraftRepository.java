@@ -11,11 +11,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SpaceCraftRepository extends JpaRepository<SpaceCraft, Long> {
-  List<SpaceCraft> findByPublished(boolean published);
 
   List<SpaceCraft> findByTitleContainingIgnoreCase(String title);
 
-  /*@Query("SELECT title, description, published FROM space_craft")
-  List<SpaceCraft> findByTitle(@Param("title") String title);*/
 
 }
